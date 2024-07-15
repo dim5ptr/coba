@@ -16,7 +16,7 @@ class WeatherController extends Controller
 
     public function show(Request $request)
     {
-        $city = $request->input('city', 'Jakarta');
+        $city = $request->input('city', 'Malang');
         $weather = $this->weatherService->getWeather($city);
 
         return view('weather', ['weather' => $weather, 'city' => $city]);
