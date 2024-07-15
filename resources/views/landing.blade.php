@@ -68,7 +68,7 @@
 </head>
 <body>
     <div class="head">
-        <h1>LET'S GET TO KNOW ABOUT THE WEATHER</h1>
+        <h1>LET'S GETss TO KNOW ABOUT THE WEATHER</h1>
         <h4>Search your country now!</h4>
         <form action="{{ route('weather') }}" method="GET">
             <input type="text" name="city" placeholder="Enter city name">
